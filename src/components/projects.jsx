@@ -5,27 +5,29 @@ import { projects } from "../data/information";
 
 export function Projects({ children }) {
   const [showAll, setShowAll] = useState(false);
+  const [projectsToShow, setProjectsToShow] = useState(2);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
-  const [projectsToShow, setProjectsToShow] = useState(2); // Inicia con 2 proyectos
 
   useEffect(() => {
+    function detectTouchDevice() {
+      setIsTouchDevice(
+        "ontouchstart" in window || navigator.maxTouchPoints > 0
+      );
+    }
+    detectTouchDevice();
+
     function updateProjectsToShow() {
       if (window.innerWidth < 768) {
-        // Dispositivos móviles
         setProjectsToShow(2);
       } else {
-        // Tabletas y computadoras
         setProjectsToShow(3);
       }
     }
 
-    // Llamar a la función inicialmente
     updateProjectsToShow();
-
-    // Agregar event listener al redimensionar la ventana
     window.addEventListener("resize", updateProjectsToShow);
 
-    // Limpiar el event listener al desmontar el componente
     return () => {
       window.removeEventListener("resize", updateProjectsToShow);
     };
@@ -64,55 +66,32 @@ export function Projects({ children }) {
           {visibleProjects.map((project, index) => (
             <div
               key={index}
-              className="bg-white px-6 rounded-lg h-auto transform transition duration-300 project-card relative z-20"
-              style={{
-                opacity:
-                  hoveredIndex === null || hoveredIndex === index ? 1 : 0.65,
-              }}
+              className={`flex flex-col justify-center items-center bg-opacity-50 rounded-lg shadow-lg overflow-hidden max-w-lg w-full transition-opacity duration-300 ${
+                hoveredIndex === null || hoveredIndex === index
+                  ? "opacity-100"
+                  : "opacity-50"
+              }`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <a href={project.link} target="_blank" className="block">
-                <div>
-                  <h3 className="text-lg font-semibold text-black">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-600 text-md">{project.category}</p>
-                </div>
-                <div className="mt-4 flex justify-center">
-                  <Image
-                    src={project.imageSrc}
-                    alt={project.imageAlt}
-                    width={450}
-                    height={250}
-                    className="rounded-lg"
-                  />
-                </div>
-                <div className="relative">
-                  {/* Este div se oculta al hacer hover */}
-                  <div
-                    className={`${
-                      hoveredIndex === index ? "hidden" : "block"
-                    } absolute inset-0 flex justify-center items-center sm:mt-0`}
-                  >
-                    <p className="text-center font-semibold">Saber más</p>
-                  </div>
-
-                  {/* Información adicional que aparece con hover */}
-                  <div
-                    className={`mt-3 transition-opacity duration-500 ease-in-out ${
-                      hoveredIndex === index ? "opacity-100" : "opacity-0"
-                    }`}
-                  >
-                    <p className="text-sm mx-4 my-2 sm:my-0">
-                      <strong>Cargo: </strong> {project.occupation}
-                    </p>
-                    <p className="text-sm mx-4 mt-1 hidden sm:block">
-                      <strong>Descripción: </strong> {project.description}
-                    </p>
-                  </div>
-                </div>
-              </a>
+              <Image
+                src={project.imageSrc}
+                alt={project.imageAlt}
+                width={450}
+                height={250}
+                className="w-full h-64 object-cover top-0"
+              />
+              <div className="p-6">
+                <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                  {project.title}
+                </h2>
+                <p className="text-gray-700 leading-tight ">
+                  {project.description}
+                </p>
+              </div>
+              <div class="flex justify-start items-start px-6 pb-6">
+                <span class="text-gray-800 font-semibold">{project.occupation}</span>
+              </div>
             </div>
           ))}
         </div>

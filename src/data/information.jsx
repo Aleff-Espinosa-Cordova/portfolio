@@ -311,7 +311,7 @@ export const companies = [
 
 export const projects = [
   {
-    title: "Sistema administrativo y comercial para BNI Chiapas",
+    title: "Sistema administrativo BNI Chiapas",
     imageSrc: "/projects/bni.png",
     imageAlt: "Desarrollo fullstack de un sistema administrativo y de ventas para BNI Chiapas",
     link: "https://bnimexico.com/es-MX/index",
@@ -320,7 +320,7 @@ export const projects = [
     description: 'Dirigí el desarrollo del proyecto "BNI Chiapas" con un equipo de 4 personas, desempeñando también el rol de desarrollador principal.',
   },
   {
-    title: "Aplicación Web para REICHSTAG",
+    title: "Aplicación Web REICHSTAG",
     imageSrc: "/projects/reichstag.png",
     imageAlt: "Desarrollo de un sitio web con Next.js para reichstag.com.mx",
     link: "https://reichstag.com.mx/",
@@ -329,25 +329,25 @@ export const projects = [
     description: 'Lideré el proyecto "REICHSTAG" trabajando con un equipo de 3 personas. Desarrollamos el sitio web con Next.js y Tailwind CSS.',
   },
   {
-    title: "Sistema administrativo para Romo Tours",
+    title: "Sistema administrativo Romo Tours",
     imageSrc: "/projects/romo-tours.png",
-    imageAlt: "Desarrollo fullstack de un sistema administrativo para Romo Tours",
+    imageAlt: "Desarrollo fullstack de un sistema administrativo Romo Tours",
     link: "http://romotours.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
     description: 'Desarrollé las funcionalidades necesarias para el sistema administrativo de "Romo Tours".',
   },
   {
-    title: "Aplicación Web para D BeefMax",
+    title: "Aplicación Web D BeefMax",
     imageSrc: "/projects/dbeefmax.png",
     imageAlt: "Desarrollo de un sitio web para una carnicería con panel administrativo en PHP",
     link: "https://dbeefmaxboutique.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: "Fui el desarrollador encargado de construir el sitio web.",
+    description: 'Fui el desarrollador encargado de construir todo el proyecto "D BeefMax".',
   },
   {
-    title: "Sitio web para REINA PEPIADA",
+    title: "Sitio web REINA PEPIADA",
     imageSrc: "/projects/reinaPepiada.webp",
     imageAlt: "Sitio web para un restaurante de comida venezolana",
     link: "https://reinapepiada.com.mx/",
@@ -365,7 +365,7 @@ export const projects = [
     description: "Desarrollé el proyecto CRM para la gestión de usuarios.",
   },
   {
-    title: "QUOWARE para la gestión de negocios",
+    title: "QUOWARE gestor de negocios",
     imageSrc: "/projects/quoware.webp",
     imageAlt: "Aplicación móvil",
     link: "https://github.com/usuario/ecommerce_project",
@@ -374,7 +374,7 @@ export const projects = [
     description: 'Lideré 2 equipos de 5 personas para el desarrollo del proyecto "QUOWARE", lanzado en PlayStore.',
   },
   {
-    title: "Red neuronal para clasificación de imágenes",
+    title: "Red neuronal clasificadora",
     imageSrc: "/projects/redNeuronal.png",
     imageAlt: "Red neuronal para clasificación del mango ataulfo",
     link: "https://github.com/aleff-eco/Red-neuronal-Clasificadora",
@@ -383,7 +383,7 @@ export const projects = [
     description: "Desarrollé el sistema backend encargado de entrenar la red neuronal para la clasificación del mango ataulfo a nivel industrial.",
   },
   {
-    title: "Aplicación móvil para consumo de una API",
+    title: "Aplicación móvil",
     imageSrc: "/projects/mangoAnalyzer.png",
     imageAlt: "Aplicación móvil para consumir una API destinada al análisis del mango ataulfo",
     link: "https://github.com/aleff-eco/Mobile-App-Ataulfo",
@@ -410,7 +410,7 @@ export const projects = [
     description: "Creé un autómata para validar placas vehiculares.",
   },
   {
-    title: "React creando una calculadora",
+    title: "React calculadora",
     imageSrc: "/projects/reactCalculator.png",
     imageAlt: "Proyecto en React creando una calculadora",
     link: "https://github.com/aleff-eco/Calculator-React/blob/Ale-Develop/project-image/React-calculator.png",
