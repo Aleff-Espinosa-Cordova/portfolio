@@ -326,7 +326,7 @@ export const projects = [
     link: "https://reichstag.com.mx/",
     category: "Desarrollo Web fullstack",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Lideré el proyecto "REICHSTAG" trabajando con un equipo de 3 personas. Desarrollamos el sitio web con Next.js y Tailwind CSS.',
+    description: 'Lideré el proyecto "REICHSTAG" trabajando con un equipo de 3 personas. Desarrollamos el sitio web con Next.js.',
   },
   {
     title: "Sistema administrativo Romo Tours",
@@ -336,6 +336,15 @@ export const projects = [
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
     description: 'Desarrollé las funcionalidades necesarias para el sistema administrativo de "Romo Tours".',
+  },
+  {
+    title: "Sistema administrativo Rufino Tamayo",
+    imageSrc: "/projects/rufino-tamayo.png",
+    imageAlt: "Desarrollo fullstack de un sistema administrativo Rufino Tamayo",
+    link: "https://www.rufinotamayo.edu.mx/",
+    category: "Desarrollo Web fullstack",
+    occupation: "Desarrollador Full-Stack",
+    description: 'Desarrollé las funcionalidades necesarias para el sistema administrativo de "Rufino Tamayo".',
   },
   {
     title: "Aplicación Web D BeefMax",

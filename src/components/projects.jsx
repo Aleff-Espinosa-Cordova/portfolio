@@ -66,7 +66,7 @@ export function Projects({ children }) {
           {visibleProjects.map((project, index) => (
             <div
               key={index}
-              className={`flex flex-col justify-center items-center bg-opacity-50 rounded-lg shadow-lg overflow-hidden max-w-lg w-full transition-opacity duration-300 ${
+              className={`bg-card/95 flex-col justify-center items-center bg-opacity-50 rounded-lg shadow-lg overflow-hidden max-w-lg w-full transition-opacity duration-300 ${
                 hoveredIndex === null || hoveredIndex === index
                   ? "opacity-100"
                   : "opacity-50"
@@ -79,18 +79,34 @@ export function Projects({ children }) {
                 alt={project.imageAlt}
                 width={450}
                 height={250}
-                className="w-full h-64 object-cover top-0"
+                loading="lazy"
+                style={{
+                  borderTopLeftRadius: "11px",
+                  borderTopRightRadius: "13px",
+                }}
+                className="w-full p-1 h-64 object-cover self-start"
               />
+
               <div className="p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-2">
-                  {project.title}
+                  <a
+                    href={project.link}
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.title}
+                  </a>
                 </h2>
+
                 <p className="text-gray-700 leading-tight ">
                   {project.description}
                 </p>
               </div>
-              <div class="flex justify-start items-start px-6 pb-6">
-                <span class="text-gray-800 font-semibold">{project.occupation}</span>
+              <div className="flex px-6 pb-6">
+                <span className="text-md font-semibold">
+                  {project.occupation}
+                </span>
               </div>
             </div>
           ))}
