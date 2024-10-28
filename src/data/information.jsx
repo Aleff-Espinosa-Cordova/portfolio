@@ -227,29 +227,16 @@ export const technicalSkills = [
 ];
 
 export const softSkills = [
-  { name: "Comunicación", icon: <CommunicationIcon className="w-8 h-8" /> },
-  { name: "Trabajo en equipo", icon: <TeamworkIcon className="w-8 h-8" /> },
   { name: "Liderazgo", icon: <LeadershipIcon className="w-8 h-8" /> },
-  { name: "Creatividad", icon: <CreativityIcon className="w-8 h-8" /> },
-  {
-    name: "Resolución de problemas",
-    icon: <ProblemSolvingIcon className="w-8 h-8" />,
-  },
-  { name: "Adaptabilidad", icon: <AdaptabilityIcon className="w-8 h-8" /> },
-  {
-    name: "Gestión del tiempo",
-    icon: <TimeManagementIcon className="w-8 h-8" />,
-  },
-  {
-    name: "Pensamiento crítico",
-    icon: <CriticalThinkingIcon className="w-8 h-8" />,
-  },
-  {
-    name: "Atención al detalle",
-    icon: <AttentionToDetailIcon className="w-8 h-8" />,
-  },
+  { name: "Trabajo en equipo", icon: <TeamworkIcon className="w-8 h-8" /> },
+  { name: "Resolución de problemas", icon: <ProblemSolvingIcon className="w-8 h-8" /> },
   { name: "Responsabilidad", icon: <ResponsibilityIcon className="w-8 h-8" /> },
-
+  { name: "Comunicación", icon: <CommunicationIcon className="w-8 h-8" /> },
+  { name: "Creatividad", icon: <CreativityIcon className="w-8 h-8" /> },
+  { name: "Adaptabilidad", icon: <AdaptabilityIcon className="w-8 h-8" /> },
+  { name: "Gestión del tiempo", icon: <TimeManagementIcon className="w-8 h-8" /> },
+  { name: "Pensamiento crítico", icon: <CriticalThinkingIcon className="w-8 h-8" /> },
+  { name: "Atención al detalle", icon: <AttentionToDetailIcon className="w-8 h-8" /> },
   { name: "Autogestión", icon: <SelfManagementIcon className="w-8 h-8" /> },
 ];
 

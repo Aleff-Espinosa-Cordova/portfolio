@@ -41,7 +41,7 @@ export function Companies() {
           </h2>
           <p className="lg:max-w-[750px] p-2 text-xl text-muted-foreground text-center">
             He tenido el privilegio de trabajar con estas increíbles empresas,
-            aportarles valor y quiero reconocerlas.
+            aportarles valor.
           </p>
         </div>
         <div
