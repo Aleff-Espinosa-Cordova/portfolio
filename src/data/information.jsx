@@ -261,13 +261,13 @@ export const companies = [
   },
   {
     name: "BNI Chiapas",
-    title: "Comercio y Negocios",
+    title: "Comercio y Negocios internacionales",
     imageUrl: "/experience/bni-chiapas.png",
     link: "https://bnimexico.com/es-MX/index",
   },
   {
     name: "HighTech Pro",
-    title: "Consultoría TI",
+    title: "Consultora TI",
     imageUrl: "/experience/htpro.svg",
     link: "https://htpro.dev/",
   },
@@ -317,7 +317,7 @@ export const projects = [
     link: "https://bnimexico.com/es-MX/index",
     category: "Desarrollo Web fullstack",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Dirigí el desarrollo del proyecto "BNI Chiapas" con un equipo de 4 personas, desempeñando también el rol de desarrollador principal.',
+    description: 'Dirigí el desarrollo del proyecto "BNI Chiapas" en tiempo récord, con un equipo de 4 personas. Desempeñando también el rol de desarrollador principal.'
   },
   {
     title: "Aplicación Web REICHSTAG",
@@ -326,7 +326,7 @@ export const projects = [
     link: "https://reichstag.com.mx/",
     category: "Desarrollo Web fullstack",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Lideré el proyecto "REICHSTAG" trabajando con un equipo de 3 personas. Desarrollamos el sitio web con Next.js.',
+    description: 'Lideré el desarrollo del proyecto "REICHSTAG" trabajando con un equipo de 3 personas.',
   },
   {
     title: "Sistema administrativo Romo Tours",
@@ -335,7 +335,7 @@ export const projects = [
     link: "http://romotours.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: 'Desarrollé las funcionalidades necesarias para el sistema administrativo de "Romo Tours".',
+    description: 'Desarrollé nuevas funcionalidades necesarias para el sistema administrativo "Romo Tours".',
   },
   {
     title: "Sistema administrativo Rufino Tamayo",
@@ -344,7 +344,7 @@ export const projects = [
     link: "https://www.rufinotamayo.edu.mx/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: 'Desarrollé las funcionalidades necesarias para el sistema administrativo de "Rufino Tamayo".',
+    description: 'Di mantenimiento e hice integración de nuevas funcionalidades para el sistema administrativo "Rufino Tamayo".'
   },
   {
     title: "Aplicación Web D BeefMax",
@@ -371,7 +371,7 @@ export const projects = [
     link: "https://github.com/aleff-eco/Crud-PHP-Laravel",
     category: "Desarrollo Web Fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: "Desarrollé el proyecto CRM para la gestión de usuarios.",
+    description: "Desarrollé un proyecto CRM para la gestión de usuarios.",
   },
   {
     title: "QUOWARE gestor de negocios",
@@ -389,7 +389,7 @@ export const projects = [
     link: "https://github.com/aleff-eco/Red-neuronal-Clasificadora",
     category: "Desarrollo Backend | IA",
     occupation: "Desarrollador Full-Stack",
-    description: "Desarrollé el sistema backend encargado de entrenar la red neuronal para la clasificación del mango ataulfo a nivel industrial.",
+    description: "Desarrollé el sistema backend encargado de entrenar una red neuronal para la clasificación del estado de maduración del mango a nivel industrial.",
   },
   {
     title: "Aplicación móvil",
@@ -398,7 +398,7 @@ export const projects = [
     link: "https://github.com/aleff-eco/Mobile-App-Ataulfo",
     category: "Aplicación móvil",
     occupation: "Desarrollador Frontend",
-    description: "Aplicación móvil para consumir una API destinada al análisis del mango ataulfo.",
+    description: 'Aplicación móvil optimizada para tiempos de respuesta cortos y óptimo rendimiento.'
   },
   {
     title: "Analizador léxico, sintáctico y semántico",
