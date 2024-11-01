@@ -46,14 +46,15 @@ export function Projects({ children }) {
       {children}
 
       <div className="relative max-w-full mx-auto px-8">
-        <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100 relative z-30">
-          <div className="mb-12 md:mb-16 relative">
+        <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100 relative z-30 flex justify-center items-center">
+          <div className="mb-12 md:mb-16 flex flex-col justify-center items-center">
             <h1 className="text-3xl font-bold text-white md:text-3xl text-center px-2 m-4">
               Proyectos
             </h1>
-            <p className="text-xl text-gray-100 text-center">
-              Todos los proyectos en esta lista los he desarrollado y liderado
-              con mucho entusiasmo.
+            <p className="lg:max-w-[750px] p-2 text-xl text-center">
+              Estos proyectos representan mi experiencia, en la que he liderado,
+              desarrollado integralmente y contribuido a la integración de
+              funcionalidades con dedicación y compromiso.
             </p>
           </div>
         </div>
