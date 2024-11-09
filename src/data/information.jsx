@@ -335,7 +335,7 @@ export const projects = [
     link: "http://romotours.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: 'Desarrollé nuevas funcionalidades necesarias para el sistema administrativo "Romo Tours".',
+    description: 'Desarrollé nuevas funcionalidades requeridas para el sistema administrativo "Romo Tours".',
   },
   {
     title: "Sistema administrativo Rufino Tamayo",

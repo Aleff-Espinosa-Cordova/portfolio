@@ -95,7 +95,7 @@ export function Contact() {
         <h2 className="text-3xl font-bold mb-8 text-foreground">Contáctame</h2>
         <p className="text-lg text-muted-foreground mb-8 max-w-[600px] mx-auto">
           Siempre estoy emocionado de conectarme con nuevas personas. No dudes
-          en contactarme a través de cualquiera de los canales a continuación.
+          en contactarme a través de cualquiera de los canales a continuación. 📨 !
         </p>
 
         <div className="flex justify-center space-x-6 mb-12">
@@ -105,7 +105,7 @@ export function Contact() {
             rel="noopener noreferrer"
             className="icon-wrapper text-muted-foreground hover:opacity-70"
           >
-            <FaLinkedin size={28} />
+            <FaLinkedin size={36} />
           </a>
           <a
             href="https://github.com/aleff-eco"
@@ -113,21 +113,21 @@ export function Contact() {
             rel="noopener noreferrer"
             className="icon-wrapper text-muted-foreground hover:opacity-70 "
           >
-            <FaGithub size={28} />
+            <FaGithub size={36} />
           </a>
           <a
-            href="https://www.instagram.com/ale.legasov?igsh=eHY1bDNhM3F5NjVx"
+            href="https://www.instagram.com/alelegasov?igsh=eHY1bDNhM3F5NjVx"
             target="_blank"
             rel="noopener noreferrer"
             className="icon-wrapper text-muted-foreground hover:opacity-70 "
           >
-            <FaInstagram size={28} />
+            <FaInstagram size={36} />
           </a>
           <a
             href="mailto:dev.aleffec.com"
             className="icon-wrapper text-muted-foreground hover:opacity-70 "
           >
-            <FaEnvelope size={28} />
+            <FaEnvelope size={36} />
           </a>
         </div>
 
