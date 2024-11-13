@@ -418,24 +418,24 @@ export const projects = [
     occupation: "Desarrollador Full-Stack",
     description: "Desarrollé un proyecto Fullstack para un analizador léxico, sintáctico y semántico con consola de depuración.",
   },
-  {
-    title: "Autómata verificador de placas vehiculares",
-    imageSrc: "/projects/automata2.png",
-    imageAlt: "Sistema de verificación de placas vehiculares",
-    link: "https://github.com/usuario/version_control",
-    category: "Tecnologías de análisis",
-    occupation: "Desarrollador Full-Stack",
-    description: "Creé un autómata para validar placas vehiculares.",
-  },
-  {
-    title: "React calculadora",
-    imageSrc: "/projects/reactCalculator.png",
-    imageAlt: "Proyecto en React creando una calculadora",
-    link: "https://github.com/aleff-eco/Calculator-React/blob/Ale-Develop/project-image/React-calculator.png",
-    category: "Frontend",
-    occupation: "Desarrollador Frontend",
-    description: "Desarrollé el proyecto de una calculadora usando lo aprendido en un curso de diseño UX & UI.",
-  },
+  // {
+  //   title: "Autómata verificador de placas vehiculares",
+  //   imageSrc: "/projects/automata2.png",
+  //   imageAlt: "Sistema de verificación de placas vehiculares",
+  //   link: "https://github.com/usuario/version_control",
+  //   category: "Tecnologías de análisis",
+  //   occupation: "Desarrollador Full-Stack",
+  //   description: "Creé un autómata para validar placas vehiculares.",
+  // },
+  // {
+  //   title: "React calculadora",
+  //   imageSrc: "/projects/reactCalculator.png",
+  //   imageAlt: "Proyecto en React creando una calculadora",
+  //   link: "https://github.com/aleff-eco/Calculator-React/blob/Ale-Develop/project-image/React-calculator.png",
+  //   category: "Frontend",
+  //   occupation: "Desarrollador Frontend",
+  //   description: "Desarrollé el proyecto de una calculadora usando lo aprendido en un curso de diseño UX & UI.",
+  // },
 ];
 
 export const experience = [
