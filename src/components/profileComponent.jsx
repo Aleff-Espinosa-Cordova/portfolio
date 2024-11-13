@@ -53,7 +53,7 @@ export function ProfileComponent() {
         yOffset;
       const startPosition = window.pageYOffset;
       const distance = targetPosition - startPosition;
-      const duration = 4800; // Duración en milisegundos para hacer el movimiento más suave
+      const duration = 800; // Duración en milisegundos
       let startTime = null;
 
       const easeInOutCubic = (time, start, distance, duration) => {
@@ -80,6 +80,11 @@ export function ProfileComponent() {
     }
   };
 
+  const handleDownloadCV = () => {
+    const cvUrl = './Aleff-Espinosa-Cordova-CV.pdf';
+    window.open(cvUrl, '_blank');
+  };
+
   return (
     <section className="profile-section min-100vh flex flex-col justify-center items-center bg-gray-100">
       <div className="profile-container text-center px-2">
@@ -94,22 +99,29 @@ export function ProfileComponent() {
         <div className="w-full h-12 flex justify-center items-center">
           <h2
             id="typewriter"
-            className="text-lg sm:text-xl md:text-2xl font-semibold"
+            className="text-lg sm:text-xl md:text-2xl font-semibold my-4"
           >
             {text}
           </h2>
         </div>
-        <p className="text-sm sm:text-base md:text-md lg:text-md xl:text-2xl lg:max-w-[750px] font-normal">
-          Ingeniero de software con más de 2 años de trayectoria en el
-          desarrollo web. Me especializo en crear experiencias únicas y
-          soluciones personalizadas.
+        <p className="text-md sm:text-base md:text-md lg:text-md xl:text-xl lg:max-w-[750px] font-medium">
+          Ingeniero de software con más de 2 años de trayectoria en el desarrollo web.
+          Me especializo en crear experiencias únicas y soluciones personalizadas.
         </p>
-        <button
-          onClick={scrollToContact}
-          className="connect-button text-white px-4 rounded transition"
-        >
-          Contáctame
-        </button>
+        <div className="flex justify-center mt-4">
+          <button
+            onClick={scrollToContact}
+            className="connect-button text-white px-4 py-2 rounded text-md transition"
+          >
+            Contáctame
+          </button>
+          <button
+            onClick={handleDownloadCV}
+            className="download-button text-white px-4 py-2 rounded text-md transition ml-2"
+          >
+            Descarga mi CV
+          </button>
+        </div>
 
         <div
           className={`scroll-down-container ${

@@ -93,11 +93,14 @@ export function Contact() {
       )}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold mb-8 text-foreground">Contáctame</h2>
-        <p className="text-lg text-muted-foreground mb-8 max-w-[600px] mx-auto">
-          Siempre estoy emocionado de conectarme con nuevas personas. No dudes
-          en contactarme a través de cualquiera de los canales a continuación. 📨 !
+        <p className="text-lg font-medium text-muted-foreground mb-4 max-w-[550px] mx-auto">
+          ¿Te gustaría conocer más sobre mi trabajo o estás interesado en
+          obtener una cotización para ese proyecto que tienes en mente?
         </p>
-
+        <p className="text-lg font-medium text-muted-foreground mb-8 max-w-[550px] mx-auto">
+          ¡No dudes en contactarme! Estaré encantado de conversar contigo y
+          hacer realidad tus ideas.. 📨 !
+        </p>
         <div className="flex justify-center space-x-6 mb-12">
           <a
             href="https://www.linkedin.com/in/aleff-espinosa-cordova/"

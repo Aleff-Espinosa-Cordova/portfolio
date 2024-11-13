@@ -62,7 +62,7 @@
   border-radius: var(--radius);
   cursor: pointer;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   transition: background-color 0.3s;
   display: inline-flex;
   justify-content: center;
@@ -81,6 +81,36 @@
 .dark .connect-button:hover {
   background-color: hsl(0, 0%, 60%);
 }
+
+
+.download-button {
+  background-color: #253ba0;
+  color: hsl(var(--primary-foreground));
+  padding: 12px;
+  margin-top: 4%;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.85rem;
+  transition: background-color 0.3s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-button:hover {
+  background-color: #2d4fe1;
+}
+
+.dark .download-button {
+  background-color: #263a92;
+}
+
+.dark .download-button:hover {
+  background-color: #2640b4;
+}
+
 
 .scroll-down-container {
   position: fixed;
