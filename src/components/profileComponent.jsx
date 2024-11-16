@@ -81,7 +81,7 @@ export function ProfileComponent() {
   };
 
   const handleDownloadCV = () => {
-    const cvUrl = './Aleff-Espinosa-Cordova-CV.pdf';
+    const cvUrl = './Aleff_Espinosa_Cordova.pdf';
     window.open(cvUrl, '_blank');
   };
 
@@ -105,7 +105,7 @@ export function ProfileComponent() {
           </h2>
         </div>
         <p className="text-md sm:text-base md:text-md lg:text-md xl:text-xl lg:max-w-[750px] font-medium">
-          Ingeniero de software con más de 2 años de trayectoria en el desarrollo web.
+          Ingeniero de software con 3 años de trayectoria en el desarrollo web.
           Me especializo en crear experiencias únicas y soluciones personalizadas.
         </p>
         <div className="flex justify-center mt-4">
