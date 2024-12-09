@@ -62,7 +62,6 @@
   border-radius: var(--radius);
   cursor: pointer;
   text-align: center;
-  font-size: 0.85rem;
   transition: background-color 0.3s;
   display: inline-flex;
   justify-content: center;
@@ -92,7 +91,6 @@
   border-radius: var(--radius);
   cursor: pointer;
   text-align: center;
-  font-size: 0.85rem;
   transition: background-color 0.3s;
   display: inline-flex;
   justify-content: center;

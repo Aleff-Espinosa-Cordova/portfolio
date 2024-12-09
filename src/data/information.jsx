@@ -317,7 +317,7 @@ export const projects = [
     link: "https://bnimexico.com/es-MX/index",
     category: "Desarrollo Web fullstack",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Lidere el desarrollo del proyecto "BNI Chiapas". Encargado del desarrollo principal y despliegue del proyecto. Finalizado con una exposición ante el equipo BNI.'
+    description: 'Lidere el desarrollo del proyecto "BNI Chiapas". Encargado del desarrollo principal y despliegue del proyecto. Finalizando la entrega con una exposición ante el equipo BNI.'
   },
   {
     title: "Aplicación Web REICHSTAG",

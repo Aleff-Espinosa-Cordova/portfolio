@@ -104,7 +104,7 @@ export function ProfileComponent() {
             {text}
           </h2>
         </div>
-        <p className="text-md sm:text-base md:text-md lg:text-md xl:text-xl lg:max-w-[750px] font-medium">
+        <p className="text-md sm:text-base md:text-md lg:text-md xl:text-xl lg:max-w-[750px] font-medium pt-2">
           Ingeniero de software con 3 años de trayectoria en el desarrollo web.
           Me especializo en crear experiencias únicas y soluciones personalizadas.
         </p>
