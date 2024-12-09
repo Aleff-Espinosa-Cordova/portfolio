@@ -317,7 +317,7 @@ export const projects = [
     link: "https://bnimexico.com/es-MX/index",
     category: "Desarrollo Web fullstack",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Dirigí el desarrollo del proyecto "BNI Chiapas" en tiempo récord, con un equipo de 4 personas. Desempeñando también el rol de desarrollador principal.'
+    description: 'Lidere el desarrollo del proyecto "BNI Chiapas". Encargado del desarrollo principal y despliegue del proyecto. Finalizado con una exposición ante el equipo BNI.'
   },
   {
     title: "Aplicación Web REICHSTAG",
@@ -326,7 +326,7 @@ export const projects = [
     link: "https://reichstag.com.mx/",
     category: "Desarrollo Web fullstack",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Lideré el desarrollo del proyecto "REICHSTAG" trabajando con un equipo de 3 personas.',
+    description: 'Dirigí el desarrollo y despliegue del proyecto "REICHSTAG" siendo tambien el desarrollador principal.',
   },
   {
     title: "Sistema administrativo Romo Tours",
@@ -335,7 +335,7 @@ export const projects = [
     link: "http://romotours.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: 'Desarrollé nuevas funcionalidades requeridas para el sistema administrativo "Romo Tours".',
+    description: 'Cumpli el rol de desarrollador encargado de construir el 3er spring del proyecto "Romo Tours".',
   },
   {
     title: "Sistema administrativo Rufino Tamayo",
@@ -344,7 +344,7 @@ export const projects = [
     link: "https://www.rufinotamayo.edu.mx/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: 'Di mantenimiento e hice integración de nuevas funcionalidades para el sistema administrativo "Rufino Tamayo".'
+    description: 'Tome el rol de desarrollador encargado del mantenimiento e integración de nuevas funcionalidades para el sistema administrativo "Rufino Tamayo".'
   },
   {
     title: "Aplicación Web D BeefMax",
@@ -353,7 +353,7 @@ export const projects = [
     link: "https://dbeefmaxboutique.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack - Lider del desarrollo",
-    description: 'Fui el desarrollador encargado de construir todo el proyecto "D BeefMax".',
+    description: 'Me encargué del desarrollo, despligue y mantenimiento del proyecto "D BeefMax", siendo el desarrollador principal del proyecto en sus dos versiones.',
   },
   {
     title: "Sitio web REINA PEPIADA",
@@ -362,7 +362,7 @@ export const projects = [
     link: "https://reinapepiada.com.mx/",
     category: "Desarrollo Web frontend",
     occupation: "Líder de equipo de desarrollo - Desarrollador Full-Stack",
-    description: 'Lideré equipos de pasantes para el desarrollo del proyecto "REINA PEPIADA".',
+    description: 'Desarrollé el proyecto "REINA PEPIADA", junto a un equipo de 4 estudiantes que realizaban su servicio social.',
   },
   {
     title: "Aplicacion web Wax Revolution",
@@ -371,7 +371,7 @@ export const projects = [
     link: "https://waxrevolution.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Backend",
-    description: 'Fui desarrollador backend encargado de integrar nuevas funcionalidades para el sistema "Wax Revolution".',
+    description: 'Cumplí el rol de desarrollador backend encargado de integrar nuevas funcionalidades para el sistema "Wax Revolution".',
   },
   {
     title: "CRM de usuarios",
@@ -380,7 +380,7 @@ export const projects = [
     link: "https://github.com/aleff-eco/Crud-PHP-Laravel",
     category: "Desarrollo Web Fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: "Desarrollé un proyecto CRM para la gestión de usuarios.",
+    description: "Desarrollé un sistema de gestión de usuarios como FreeLancer.",
   },
   {
     title: "QUOWARE gestor de negocios",
@@ -389,7 +389,7 @@ export const projects = [
     link: "https://github.com/usuario/ecommerce_project",
     category: "Desarrollo Mobile | Disponible en PlayStore",
     occupation: "Líder del proyecto - Desarrollador Full-Stack",
-    description: 'Lideré 2 equipos de 5 personas para el desarrollo del proyecto "QUOWARE", lanzado en PlayStore.',
+    description: 'Lideré un equipo de desarrollo y un equipo de diseñadores. Para crear el proyecto "QUOWARE", lanzado en PlayStore.',
   },
   {
     title: "Red neuronal clasificadora",
@@ -398,7 +398,7 @@ export const projects = [
     link: "https://github.com/aleff-eco/Red-neuronal-Clasificadora",
     category: "Desarrollo Backend | IA",
     occupation: "Desarrollador Full-Stack",
-    description: "Desarrollé el sistema backend encargado de entrenar una red neuronal para la clasificación del estado de maduración del mango a nivel industrial.",
+    description: "Desarrollé un modelo de inteligencia artificial para la clasificación del estado de maduración del mango a nivel industrial.",
   },
   {
     title: "Aplicación móvil",
@@ -407,7 +407,7 @@ export const projects = [
     link: "https://github.com/aleff-eco/Mobile-App-Ataulfo",
     category: "Aplicación móvil",
     occupation: "Desarrollador Frontend",
-    description: 'Aplicación móvil optimizada para tiempos de respuesta cortos y óptimo rendimiento.'
+    description: 'Desarrollé una aplicación móvil enfocada en el análisis del mango ataulfo, con tiempos de respuesta cortos y óptimo rendimiento.'
   },
   {
     title: "Analizador léxico, sintáctico y semántico",
@@ -449,14 +449,14 @@ export const experience = [
     descriptionTech:
       "Tecnologías: PHP, Laravel, MySQL, JavaScript, Livewire, Tailwind, Vue.",
     descriptionPoints: [
-      'Lideré el desarrollo de proyectos web nacionales e internacionales, como Reina Pepiada, DBeefMax, Reichstag y BNI Chiapas, logrando un aumento del 100% en el tráfico web.',
-      "Coordiné reuniones estratégicas con clientes, garantizando entregas puntuales y soluciones personalizadas que aumentaron su satisfacción.",
+      'Cumplí excitosamente el rol de lider de equipo de desarrollo y desarrollador full-stack para proyectos web nacionales e internacionales, como "Reina Pepiada", "DBeefMax", "Reichstag" y "BNI Chiapas".',
+      "Coordiné reuniones estratégicas, garantizando entregas puntuales y soluciones personalizadas.",
       "Asesoré y supervisé a más de 15 pasantes, asegurando la calidad de las soluciones y su crecimiento profesional.",
       "Dirigí equipos multidisciplinarios, mejorando la eficiencia en un 35% mediante metodologías ágiles.",
       "Desplegué y mantuve aplicaciones web, optimizando rendimiento, SEO y seguridad.",
-      "Implementé funcionalidades avanzadas en sistemas backend, mejorando el rendimiento en un 60% y corrigiendo errores críticos.",
+      "Implementé funcionalidades avanzadas en sistemas backend, mejorando el rendimiento en un 60% y corrigiendo errores y mejorando el SEO.",
       "Realicé pruebas y elaboré documentación técnica para facilitar mantenimiento y futuras actualizaciones.",
-      "Utilicé GitHub y Bitbucket para gestionar el código fuente y colaborar eficientemente con equipos de desarrollo.",
+      "Utilicé GitHub y Bitbucket para gestionar el código fuente y colaborar eficientemente con multiples equipos de desarrollo.",
     ],
   },
   {
@@ -470,12 +470,12 @@ export const experience = [
       "Tecnologías: PHP, Laravel, Docker, MySQL y JavaScript.",
     descriptionPoints: [
       "Lideré la entrega de las versiones 1 y 2 de 'Tareas Pro', cumpliendo plazos ajustados y superando las expectativas del cliente.",
-      "Diseñé e implementé 30+ funcionalidades, mejorando la experiencia de usuario en un 50% y aumentando la retención de clientes.",
-      "Solucioné errores críticos y optimicé el rendimiento del sistema en un 60%, garantizando una operación fluida.",
+      "Diseñé e implementé 30+ funcionalidades, mejorando la experiencia de usuario en un 100%.",
+      "Solucioné errores críticos y optimicé el rendimiento del sistema en un 80%, garantizando una operación fluida.",
       "Desarrollé aplicaciones en entornos locales y dockerizados, aplicando MVC y arquitectura de tres capas para maximizar escalabilidad y mantenibilidad.",
       "Realicé pruebas exhaustivas y documenté APIs con Postman, asegurando calidad y confiabilidad.",
-      "Escribí código limpio, eficiente y escalable, siguiendo las mejores prácticas y estándares industriales.",
-      "Gestioné tareas con Trello, mejorando la eficiencia del equipo en un 40% y alcanzando objetivos diarios.",
+      "Escribí código limpio, eficiente y escalable, siguiendo las mejores prácticas y estándares profesionales.",
+      "Gestioné tareas con Trello, mejorando la eficiencia del equipo y alcanzando objetivos diarios.",
       'Contribuí activamente en reuniones diarias, fomentando soluciones innovadoras y promoviendo la colaboración del equipo.',
     ],
   },
@@ -489,11 +489,11 @@ export const experience = [
     descriptionTech: "Tecnologías: WordPress, PHP, MySQL y JavaScript.",
     descriptionPoints: [
       "Implementé sistemas de seguridad, protegiendo la infraestructura y reduciendo incidentes de seguridad en un 80%.",
-      "Desarrollé e integré plugins, ampliando la funcionalidad y mejorando la satisfacción.",
+      "Desarrollé e integré plugins, ampliando la funcionalidad del sitio web y mejorando la experiencia del usuario.",
       "Realice mejoras en el diseño y optimice la interfaz de usuario, aumentando el tiempo de permanencia en el sitio.",
       "Implementé prácticas para la seguridad de datos, cumpliendo con estándares de seguridad y regulaciones de protección de datos.",
       "Mantuve y optimicé la funcionalidad general del sitio, incrementando su rendimiento en un 70%.",
-      "Realicé actualizaciones y mejoras a nivel de servidor, asegurando la estabilidad del sitio.",
+      "Realicé actualizaciones y mejoras a nivel de servidor, asegurando la estabilidad.",
     ],
   },
   {
@@ -506,8 +506,8 @@ export const experience = [
     descriptionTech: "Tecnologías: PHP, MySQL, JavaScript.",
     descriptionPoints: [
       "Implementé nuevas funcionalidades para optimizar la experiencia del usuario y mejorar el flujo de trabajo interno.",
-      "Desarrollé mejoras en el backend utilizando PHP y MySQL.",
-      "Optimicé el rendimiento del sistema, reduciendo tiempos de carga y mejorando la eficiencia del procesamiento de datos.",
+      "Desarrollé mejoras en el backend para mejorar la eficiencia y la escalabilidad del sistema.",
+      "Optimicé el rendimiento del sistema, reduciendo tiempos de consultas y mejorando la eficiencia del procesamiento de datos.",
       "Apliqué correcciones de errores y realicé mejoras en el código para asegurar un funcionamiento fluido del sistema.",
       "Colaboré con diferentes equipos para asegurar la integración de nuevas funcionalidades sin interrumpir el servicio.",
     ],
@@ -519,6 +519,6 @@ export const experience = [
     title: "Ingeniera en Software",
     date: "2020 - 2023",
     description:
-      "Soy Ingeniero de Software egresado de la Universidad Politécnica de Chiapas, donde desarrollé una base sólida en tecnologías clave como PHP, Laravel, MySQL, JavaScript y React. A lo largo de mi formación, participé en proyectos integrales, diseñando, desarrollando y manteniendo aplicaciones web con un enfoque en optimización y escalabilidad. Además, trabajé en la integración de servicios backend y frontend, logrando mejorar significativamente la experiencia del usuario. Durante este periodo, implementé metodologías ágiles y participé activamente en cada fase del ciclo de desarrollo de software, desde la planificación hasta el despliegue.",
+      "Ingeniero de Software egresado de la Universidad Politécnica de Chiapas, donde desarrollé una base sólida en tecnologías clave como PHP, Laravel, MySQL, JavaScript y React. A lo largo de mi formación, participé en proyectos integrales, diseñando, desarrollando y manteniendo aplicaciones web con un enfoque en optimización y escalabilidad. Además, trabajé en la integración de servicios backend y frontend, logrando mejorar significativamente la experiencia del usuario. Durante este periodo, implementé metodologías ágiles y participé activamente en cada fase del ciclo de desarrollo de software, desde la planificación hasta el despliegue.",
   },
 ];
