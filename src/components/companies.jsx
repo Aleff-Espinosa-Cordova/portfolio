@@ -37,11 +37,10 @@ export function Companies() {
       <div className="container flex flex-col items-center gap-8">
         <div className="grid gap-2 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-2xl md:text-3xl">
-            Compañías a las que he aportado valor
+            Compañías con las que he colaborado
           </h2>
           <p className="lg:max-w-[750px] p-2 text-xl text-muted-foreground text-center">
-            He tenido el privilegio de trabajar con estas increíbles empresas,
-            aportarles valor.
+            Ha sido un honor contribuir al crecimiento de estas destacadas empresas, aportando soluciones y generando valor en cada proyecto.
           </p>
         </div>
         <div

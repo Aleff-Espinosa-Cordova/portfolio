@@ -100,7 +100,7 @@ export function Projects({ children }) {
                   </a>
                 </h2>
 
-                <p className="text-gray-700 leading-tight ">
+                <p className="text-gray-700 leading-tight italic">
                   {project.description}
                 </p>
               </div>

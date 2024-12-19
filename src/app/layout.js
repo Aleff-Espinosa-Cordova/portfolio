@@ -1,23 +1,27 @@
 import { Chakra_Petch } from "next/font/google"; // Importar la fuente Chakra Petch
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 // Importar Chakra Petch con los pesos disponibles
 const chakraPetch = Chakra_Petch({
   subsets: ["latin"],
-  weight: ['300', '400', '500', '600', '700'], // Pesos de Chakra Petch
-  style: ['normal', 'italic'],
+  weight: ["300", "400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
 export const metadata = {
   title: "Aleff Espinosa Cordova - Portfolio",
-  description: "Mi sitio web personal que presenta mi trayectoria profesional, proyectos destacados y habilidades. Desarrollado con Next.js y Tailwind CSS.",
-  keywords: "web development, portfolio, projects, Aleff Espinosa Cordova, developer, software engineer, software, engineering",
+  description:
+    "Mi sitio web personal que presenta mi trayectoria profesional, proyectos destacados y habilidades. Desarrollado con Next.js y Tailwind CSS.",
+  keywords:
+    "web development, portfolio, projects, Aleff Espinosa Cordova, developer, software engineer, software, engineering",
   author: "Aleff Espinosa Cordova",
   openGraph: {
     title: "Aleff Espinosa Cordova - Portfolio",
-    description: "Mi sitio web personal que presenta mi trayectoria profesional, proyectos destacados y habilidades. Desarrollado con Next.js y Tailwind CSS.",
+    description:
+      "Mi sitio web personal que presenta mi trayectoria profesional, proyectos destacados y habilidades. Desarrollado con Next.js y Tailwind CSS.",
     url: "https://aleff.vercel.app/",
     siteName: "Aleff Espinosa Cordova",
   },
@@ -38,7 +42,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <Analytics/>
+      <Analytics />
       <SpeedInsights />
       {/* Aplicar la fuente Chakra Petch globalmente */}
       <body className={chakraPetch.className}>{children}</body>
