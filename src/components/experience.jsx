@@ -60,7 +60,7 @@ export function Experience() {
                     <p className="mb-2 tracking-wide font-semibold text-gray-700 pl-5 text-sm sm:text-base">
                       {category.descriptionTech}
                     </p>
-                    <ul className="list-disc ml-10 tracking-normal mr-10 pt-1 text-sm sm:text-base">
+                    <ul className="list-disc ml-10 tracking-normal mr-28 pt-1 text-sm sm:text-base">
                       {category.descriptionPoints?.map((point, i) => (
                         <li className="mt-2" key={i}>{point}</li>
                       ))}

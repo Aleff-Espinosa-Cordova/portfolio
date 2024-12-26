@@ -40,7 +40,7 @@ export function Companies() {
             Compañías con las que he colaborado
           </h2>
           <p className="lg:max-w-[750px] p-2 text-xl text-muted-foreground text-center">
-            Ha sido un honor contribuir al crecimiento de estas destacadas empresas, aportando soluciones y generando valor en cada proyecto.
+            Ha sido un honor contribuir al crecimiento de estas destacadas empresas mediante la aportación de soluciones y la generación de valor en cada proyecto.
           </p>
         </div>
         <div

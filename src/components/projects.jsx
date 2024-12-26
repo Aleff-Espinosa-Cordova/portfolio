@@ -52,9 +52,7 @@ export function Projects({ children }) {
               Proyectos
             </h1>
             <p className="lg:max-w-[750px] p-2 text-xl text-center">
-              Estos proyectos representan mi experiencia, en la que he liderado,
-              desarrollado integralmente y contribuido a la integración de
-              funcionalidades con dedicación y compromiso.
+              Estos proyectos representan mi experiencia profesional, de la cual estoy orgulloso por haber liderado, desarrollado tanto de forma individual como colaborativa.
             </p>
           </div>
         </div>
