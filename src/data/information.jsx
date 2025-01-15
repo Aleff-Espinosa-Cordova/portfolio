@@ -335,7 +335,7 @@ export const projects = [
     link: "http://romotours.com/",
     category: "Desarrollo Web fullstack",
     occupation: "Desarrollador Full-Stack",
-    description: 'Cumpli el rol de desarrollador encargado de construir el 3er spring del proyecto "Romo Tours".',
+    description: 'Cumplí el rol de desarrollador encargado de construir el 3er sprint del proyecto "Romo Tours".',
   },
   {
     title: "Sistema administrativo Rufino Tamayo",
@@ -449,7 +449,7 @@ export const experience = [
     descriptionTech:
       "Tecnologías: PHP, Laravel, MySQL, JavaScript, Livewire, Tailwind, Vue.",
     descriptionPoints: [
-      'Dirigí el desarrollo de proyectos web, como: “BNI Chiapas”, “Reichstag”, “DBeefMax”, “Reina Pepiada”. Logrando ademas aumentar un 100% su alcance con las mejores practicas de SEO y el mejor rendimiento.',
+      'Dirigí el desarrollo de proyectos web, como: “BNI Chiapas”, “Reichstag”, “DBeefMax”, “Reina Pepiada”. Logrando además aumentar un 100% su alcance con las mejores prácticas de SEO y el mejor rendimiento.',
       "Evalué a más de 15 pasantes, brindando conferencias y asesoramientos asegurando la calidad de sus entregas y apoyando a su crecimiento profesional.",
       "Coordiné reuniones estratégicas con clientes, garantizando entregas puntuales y soluciones a la medida de la mejor calidad el 100% de las veces.",
       "Dirigí equipos multidisciplinarios, mejorando la eficiencia en un 50% mediante metodologías ágiles.",
@@ -471,7 +471,7 @@ export const experience = [
     descriptionPoints: [
       "Lideré la entrega del spring 1 y 2 de 'Tareas Pro', cumpliendo plazos ajustados y superando las expectativas del cliente.",
       "Diseñé e implementé el doble de funcionalidades, mejorando la experiencia de usuario en un 100%.",
-      "Solucioné errores de seguridad y optimicé el rendimiento del sistema en un 80%, garantizando una operación rápida de las consultas y manejo del usurario.",
+      "Solucioné errores de seguridad y optimicé el rendimiento del sistema en un 80%, garantizando una operación rápida de las consultas y manejo del usuario.",
       "Desarrollé en entornos locales y dockerizados, aplicando MVC y la arquitectura de tres capas para maximizar la escalabilidad y la mantenibilidad.",
       "Realicé pruebas exhaustivas y documenté APIs con Postman, asegurando la calidad y la confiabilidad de los sistemas.",
       "Desarrollé código limpio, eficiente y escalable, siguiendo las mejores prácticas y los estándares profesionales.",
